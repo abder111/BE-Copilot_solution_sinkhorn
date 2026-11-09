@@ -1,0 +1,20 @@
+# Données volumineuses (à ne pas pusher sur Git)
+train.csv
+test.csv
+*.csv
+
+# Checkpoints et caches
+nb28_checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Fichiers système & archives
+.DS_Store
+Thumbs.db
+*.zip
